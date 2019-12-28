@@ -13,15 +13,21 @@
     require_once 'vendor/autoload.php';
 
     $asset_url = 'css/style.css';
-    $query = "SELECT * FROM geekbrains.images";
+    $sql = "SELECT * FROM geekbrains.images";
     $obj = new DbInteract();
-    $images = $obj->get($query);
+    $images = $obj->get($sql);
+    if (isset($_GET['big_image_url']) && isset($_GET['id'])){
+        $big_image = $_GET['big_image_url'];
+        $id_img = $_GET['id'];
+        $sql2 = "UPDATE geekbrains.images SET views = views + 1 WHERE id = $id_img";
+        $obj->get($sql2);
+    }
 
     try {
         $loader = new Twig_Loader_Filesystem('templates');
         $twig = new Twig_Environment($loader);
-        $template = $twig->load('small_images.tmpl');
-        echo $template->render(array('images'=>$images, 'asset_url'=>$asset_url));
+        $template = $twig->load('big_images.tmpl');
+        echo $template->render(array('images'=>$images, 'asset_url'=>$asset_url, 'big_image'=> $big_image));
     }catch (Exception $e){
         echo 'ERROR '. $e->getMessage();
     }

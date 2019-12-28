@@ -1,0 +1,27 @@
+.small_images {
+    height: 120px;
+}
+.big_image{
+    max-height: 500px;
+}
+.clear_fix{
+    content: "";
+    clear: both;
+    display: table;
+
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+.wrap_img{
+    width: 200px;
+    border: solid 1px #e1e1e1;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.wrap_img:hover{
+    border: solid 1px red;
+}

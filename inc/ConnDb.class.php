@@ -20,7 +20,7 @@
                         $this->pwd);
                 }
                 catch (PDOException $e){
-                    echo 'Connection fail:' . $e->getMessage();
+                    echo 'Connection failed:' . $e->getMessage();
                 }
             }
         }
