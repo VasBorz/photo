@@ -1,35 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6342387f-9ed9-4818-be41-5bb2b03d30dd" name="Default Changelist" comment="" />
+    <list default="true" id="6342387f-9ed9-4818-be41-5bb2b03d30dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/ConnDb.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/inc/GetResults.class.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/big_images.tmpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/small_images.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php1.5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php1.5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAMP-PRO-Logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NAN" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/function.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/function.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/function.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/output.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/output.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/photo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/send.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
       <phar pharPath="$PROJECT_DIR$/composer.phar" />
     </execution>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="geekbrains: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1VZRMRzZUE67Ygh9gOTTHOkcRhH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@3913cc4e" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -46,7 +136,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1577458582165</updated>
-      <workItem from="1577458583261" duration="200000" />
+      <workItem from="1577458583261" duration="8074000" />
+      <workItem from="1577529495709" duration="118000" />
+      <workItem from="1577529689847" duration="5526000" />
     </task>
     <servers />
   </component>
@@ -54,13 +146,78 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="476" y="419" key="#CLI_Interpreters" timestamp="1577529291620">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="476" y="419" key="#CLI_Interpreters/0.0.2560.1440@0.0.2560.1440" timestamp="1577529291620" />
     <state x="1121" y="163" key="#PHP" timestamp="1577458598109">
       <screen x="0" y="23" width="2560" height="1300" />
     </state>
     <state x="1121" y="163" key="#PHP/0.23.2560.1300@0.23.2560.1300" timestamp="1577458598109" />
+    <state x="828" y="304" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577530015977">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="828" y="304" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1577530015977" />
+    <state x="1566" y="303" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577462151546">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1566" y="303" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1440@0.0.2560.1440" timestamp="1577462151546" />
+    <state x="1656" y="457" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1577534810580">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1656" y="457" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1577534810580" />
+    <state x="1600" y="418" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1577459980309">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1600" y="418" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1577459980309" />
+    <state x="1550" y="247" key="CommitChangelistDialog2" timestamp="1577464270070">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1550" y="247" key="CommitChangelistDialog2/0.0.2560.1440@0.0.2560.1440" timestamp="1577464270070" />
+    <state x="1491" y="586" width="750" height="375" key="ComposerAddDependencyOutputPopupDimensionServiceKey" timestamp="1577458956234">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1491" y="586" width="750" height="375" key="ComposerAddDependencyOutputPopupDimensionServiceKey/0.0.2560.1440@0.0.2560.1440" timestamp="1577458956234" />
     <state x="1370" y="593" key="ComposerInitDialogKey" timestamp="1577458749308">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1370" y="593" key="ComposerInitDialogKey/0.0.2560.1440@0.0.2560.1440" timestamp="1577458749308" />
+    <state width="1184" height="410" key="GridCell.Tab.0.bottom" timestamp="1577530465620">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1184" height="410" key="GridCell.Tab.0.bottom/0.0.2560.1440@0.0.2560.1440" timestamp="1577530465620" />
+    <state width="1184" height="410" key="GridCell.Tab.0.center" timestamp="1577530465618">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1184" height="410" key="GridCell.Tab.0.center/0.0.2560.1440@0.0.2560.1440" timestamp="1577530465618" />
+    <state width="1184" height="410" key="GridCell.Tab.0.left" timestamp="1577530465617">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1184" height="410" key="GridCell.Tab.0.left/0.0.2560.1440@0.0.2560.1440" timestamp="1577530465617" />
+    <state width="1184" height="410" key="GridCell.Tab.0.right" timestamp="1577530465619">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="1184" height="410" key="GridCell.Tab.0.right/0.0.2560.1440@0.0.2560.1440" timestamp="1577530465619" />
+    <state width="254" height="548" key="HiddenNamespacesPopup" timestamp="1577530846267">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state width="254" height="548" key="HiddenNamespacesPopup/0.0.2560.1440@0.0.2560.1440" timestamp="1577530846267" />
+    <state x="1372" y="483" width="596" height="419" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1577459652952">
+      <screen x="0" y="23" width="2560" height="1300" />
+    </state>
+    <state x="1372" y="510" key="PHPComposerAddDependencyDialogDimensionKey/0.0.2560.1440@0.0.2560.1440" timestamp="1577458979223" />
+    <state x="1372" y="483" width="596" height="419" key="PHPComposerAddDependencyDialogDimensionKey/0.23.2560.1300@0.23.2560.1300" timestamp="1577459652952" />
+    <state x="1318" y="271" key="SettingsEditor" timestamp="1577529292600">
+      <screen x="0" y="0" width="2560" height="1440" />
+    </state>
+    <state x="1318" y="271" key="SettingsEditor/0.0.2560.1440@0.0.2560.1440" timestamp="1577529292600" />
+    <state x="594" y="350" key="Vcs.Push.Dialog.v2" timestamp="1577459519118">
+      <screen x="0" y="23" width="2560" height="1300" />
+    </state>
+    <state x="594" y="350" key="Vcs.Push.Dialog.v2/0.23.2560.1300@0.23.2560.1300" timestamp="1577459519118" />
+    <state x="1548" y="467" key="com.intellij.ide.util.TipDialog" timestamp="1577529730250">
+      <screen x="0" y="23" width="2560" height="1300" />
+    </state>
+    <state x="1548" y="467" key="com.intellij.ide.util.TipDialog/0.23.2560.1300@0.23.2560.1300" timestamp="1577529730250" />
   </component>
 </project>

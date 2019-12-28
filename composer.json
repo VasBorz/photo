@@ -8,5 +8,10 @@
       "name": "author's name",
       "email": "email@example.com"
     }
-  ]
+  ],
+  "require": {
+    "twig/twig": "v2.0.0",
+    "ext-pdo": "*",
+    "ext-mysqli": "*"
+  }
 }

@@ -9,10 +9,25 @@
 <!--2. *Для примера 6 из сегодняшнего урока реализовать хранение в БД, которое позволит логике example6.php работать.-->
 
 <?php
+    require_once 'inc/GetResults.class.php';
+    //require_once 'inc/output.php';
+    require_once 'vendor/autoload.php';
 
-require_once('php/config.php');
-require_once('php/function.php');
-require_once('php/output.php');
+    try {
+        $loader = new Twig_Loader_Filesystem('templates');
+        $twig = new Twig_Environment($loader);
+        $template = $twig->load('small_images.tmpl');
+        $month = date('m', mktime());
+        $arr = array('1','2','3','4');
+        echo $template->render(array('items'=>$arr));
+    }catch (Exception $e){
+        echo 'ERROR '. $e->getMessage();
+    }
+
+    $obj = new getResults();
+    $query = "SELECT * FROM geekbrains.images";
+    print_r($obj->get($query));
+
 
 ?>
 
