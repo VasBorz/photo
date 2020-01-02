@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6342387f-9ed9-4818-be41-5bb2b03d30dd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inc/photo.php" beforeDir="false" afterPath="$PROJECT_DIR$/inc/photo222.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +122,7 @@
       <updated>1577458582165</updated>
       <workItem from="1577458583261" duration="8074000" />
       <workItem from="1577529495709" duration="118000" />
-      <workItem from="1577529689847" duration="17293000" />
+      <workItem from="1577529689847" duration="18098000" />
     </task>
     <servers />
   </component>
@@ -162,10 +162,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1491" y="586" width="750" height="375" key="ComposerAddDependencyOutputPopupDimensionServiceKey/0.0.2560.1440@0.0.2560.1440" timestamp="1577458956234" />
-    <state x="1370" y="593" key="ComposerInitDialogKey" timestamp="1577458749308">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="1370" y="558" width="524" height="287" key="ComposerInitDialogKey" timestamp="1577955163983">
+      <screen x="0" y="23" width="2560" height="1300" />
     </state>
     <state x="1370" y="593" key="ComposerInitDialogKey/0.0.2560.1440@0.0.2560.1440" timestamp="1577458749308" />
+    <state x="1370" y="558" width="524" height="287" key="ComposerInitDialogKey/0.23.2560.1300@0.23.2560.1300" timestamp="1577955163983" />
     <state width="1173" height="512" key="GridCell.Tab.0.bottom" timestamp="1577954148668">
       <screen x="0" y="23" width="2560" height="1300" />
     </state>
@@ -194,11 +195,11 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1546" y="637" key="NewPhpFileDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1577547518066" />
-    <state x="1372" y="510" width="596" height="419" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1577543874842">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="1372" y="483" width="596" height="419" key="PHPComposerAddDependencyDialogDimensionKey" timestamp="1577955304624">
+      <screen x="0" y="23" width="2560" height="1300" />
     </state>
     <state x="1372" y="510" key="PHPComposerAddDependencyDialogDimensionKey/0.0.2560.1440@0.0.2560.1440" timestamp="1577543874842" />
-    <state x="1372" y="483" width="596" height="419" key="PHPComposerAddDependencyDialogDimensionKey/0.23.2560.1300@0.23.2560.1300" timestamp="1577459652952" />
+    <state x="1372" y="483" width="596" height="419" key="PHPComposerAddDependencyDialogDimensionKey/0.23.2560.1300@0.23.2560.1300" timestamp="1577955304624" />
     <state x="1318" y="271" key="SettingsEditor" timestamp="1577529292600">
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
