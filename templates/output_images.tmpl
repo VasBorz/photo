@@ -1,0 +1,12 @@
+<h2>Images overview:</h2>
+
+<ul>
+    {% for key, image in images  %}
+        <li class="wrap_img">
+            <a href="/php1.5/photo.php?big_image_url={{ image.img_url }}&id={{ image.id }}">
+                <img class="small_images" src="img/s/{{ image.img_url }}" alt=""></a>
+            <p>{{ image.views }} views</p>
+        </li>
+    {% endfor %}
+</ul>
+<div class="clear_fix"></div>
