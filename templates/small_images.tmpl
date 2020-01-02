@@ -1,22 +1,10 @@
-<h2>Images overview:</h2>
+{#Style files#}
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset_url }}" />
 {% endblock %}
-    <ul>
-    {% for key, image in images  %}
-        <li class="wrap_img">
-            <a href="/php1.5/photo.php?big_image_url={{ image.img_url }}&id={{ image.id }}">
-            <img class="small_images" src="img/s/{{ image.img_url }}" alt=""></a>
-            <p>{{ image.views }} views</p>
-        </li>
-    {% endfor %}
-    </ul>
-<div class="clear_fix"></div>
+
+{#Output of images#}
+{% include 'output_images.tmpl' %}
 
 {#Form to send image#}
-<h2>Here you can upload new image:</h2>
-<form action="/php1.5/inc/send.php" method="POST" enctype="multipart/form-data">
-    <input type="title" name="first_name">
-    <input type="file" name="myfile">
-    <input type="submit" value="submit">
-</form>
+{% include 'form.tmpl' %}
