@@ -9,6 +9,7 @@ if (is_uploaded_file($buffer = $_FILES[myfile][tmp_name])) {
 	$file_type = $_FILES[myfile][type];
 	$file_size = $_FILES[myfile][size];
 
+
 	if (move_uploaded_file ($buffer ,"$uploadsDir/$destination")){
 		 if (!copy("$uploadsDir/$img_url", "$uploadsDir/s/$img_url")) {
      		 echo "Error - file is not uploaded...\n";
